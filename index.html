@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsha cp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(135deg, #2a5298, #1e3c72);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+            background-size: cover;
+            background-position: center;
+        }
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin: 10px 0 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            padding: 10px 15px;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background: #fff;
+            color: #333;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+        .about, .skills, .projects, .contact {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #1e3c72;
+            text-transform: uppercase;
+        }
+
+        /* Skills Section */
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skills li {
+            background: #f4f4f4;
+            margin: 10px;
+            padding: 10px 20px;
+            border-radius: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .skills li:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Projects Section */
+        .projects div {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .projects h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin: 10px 0;
+        }
+        .projects a {
+            color: #2a5298;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .projects a:hover {
+            color: #1e3c72;
+        }
+
+        /* Contact Section */
+        .contact p, .contact a {
+            text-align: center;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .contact a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #1e3c72;
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            color: #2a5298;
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background: #1e3c72;
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Harsha cp</h1>
+        <p>Frontend Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Harsha, a versatile professional with 2 years of experience in manufacturing and 1 year in web development. I am passionate about building impactful solutions and continuously learning new technologies to grow professionally.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Python</li>
+           
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Communication</li>
+            <li>Decision Making</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3><a href="https://harshacp916.github.io/Booksky" target="_blank">Booksky</a></h3>
+            <p>A platform for managing and exploring book collections, featuring a user-friendly interface and efficient backend.</p>
+        </div>
+        <div>
+            <h3><a href="https://harshacp916.github.io/clothing/" target="_blank">Clothing</a></h3>
+            <p>An e-commerce website focused on clothing, providing a seamless shopping experience with responsive design.</p>
+        </div>
+        <div>
+            <h3><a href="https://harshacp916.github.io/eduford/" target="_blank">Eduford</a></h3>
+            <p>A website designed for educational institutions, offering resources and a structured layout for enhanced learning.</p>
+        </div>
+        <div>
+           
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:harshacp916@gmail.com">harshacp916@gmail.com</a></p>
+        <p>Phone: 9052825662</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/harsha-chakkamponnath-6b6862290" target="_blank">linkedin.com/in/harsha-chakkamponnath</a></p>
+    </section>
+
+    <footer>
+        <p>&copy;  Harsha's Portfolio. </p>
+    </footer>
+</body>
+</html>
+
+
+
